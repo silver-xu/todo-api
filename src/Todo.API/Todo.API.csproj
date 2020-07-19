@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+	<TargetFramework>netcoreapp3.1</TargetFramework>
+	<UserSecretsId>a8a0663e-0adb-485f-8354-34dda485ce93</UserSecretsId>
+	<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	<GenerateRuntimeConfigurationFiles>True</GenerateRuntimeConfigurationFiles>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+	<PackageReference Include="Sciensoft.Hateoas" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\Todo.DataModels\Todo.DataModels.csproj" />
+	<ProjectReference Include="..\Todo.Models\Todo.Models.csproj" />
+	<ProjectReference Include="..\Todo.Services\Todo.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Todo.DataModels\Todo.DataModels.csproj" />
+    <ProjectReference Include="..\Todo.Models\Todo.Models.csproj" />
+  </ItemGroup>
+
+</Project>
